@@ -13,7 +13,7 @@
 
 ```shell
 mkdir build
-../configure --prefix=/opt/dev/gcc
+../configure --prefix=/opt/dev/glibc-2.27
 make -j$(proc)
 sudo make install
 ```
